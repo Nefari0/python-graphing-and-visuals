@@ -1,0 +1,4 @@
+import os
+    my_path = os.path.abspath(__file__) # Figures out the absolute path for you in case your working directory moves around.
+    ...
+    fig.savefig(my_path + '/Sub Directory/graph.png')
